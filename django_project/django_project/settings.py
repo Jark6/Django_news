@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     "crispy_bootstrap5", # new
     # Local
     "accounts.apps.AccountsConfig",
-    "pages.apps.PagesConfig", # new
+    "pages.apps.PagesConfig", 
+    "articles.apps.ArticlesConfig" # new
 ]
 
 MIDDLEWARE = [
@@ -112,7 +113,7 @@ AUTH_USER_MODEL = "accounts.CustomUser" # new
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Yekaterinburg'
 
 USE_I18N = True
 
